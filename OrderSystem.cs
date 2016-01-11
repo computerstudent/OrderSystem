@@ -12,4 +12,14 @@ public class OrderSystem
 	{
 		
 	}
+	
+	public void AddOrder (Order order)
+	{
+		orders.Add(order);
+	}
+
+	public void RemoveOrder (Order order)
+	{
+		orders.Remove(order);
+	}	
 }
